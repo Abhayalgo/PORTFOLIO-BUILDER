@@ -1,0 +1,38 @@
+/*import fonts from fonts.css file */
+
+@import url(./font.css);/*now after this i can use this font in this style sheet*/
+
+/*Css variable importing technique*/
+@import url(./partials/variables.css);
+
+/*start navigation  */
+.header_area.main-menu.navbar.navbar-brand{
+    padding: 0.2rem 0.5rem
+}
+.header_area.main-menu.navbar{
+    padding: 1rem 0.5rem
+}
+.header_area.main-menu.nav-item.nav-link{
+    font-family:var(--roboto) /*"Roboto",cursive;---instead of using this we are using robot,created insidevariable.css*/
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color:var(--title-color);
+}
+
+
+
+/* end navigation */
+
+
+/*Banner Area*/
+.site-main.site-banner
+{
+    background:url(../img/banner/home-banner.png)no-repeat 0% 50%;
+}
+
+.site-main.site-banner
+
+
+
+/*End Banner Area*/
